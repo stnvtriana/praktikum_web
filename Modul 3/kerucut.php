@@ -11,10 +11,10 @@ $luasAlas = $pi * pow($r, 2);
 $luasPermukaan = ($pi * pow($r, 2)) + ($pi * $r * $s);
 
 // Menampilkan Hasil
-echo "--- Perhitungan Bangun Ruang Kerucut ---" . "<br>";
+echo "====  Perhitungan Bangun Ruang Kerucut ====" . "<br>";
 echo "Jari-jari (r)    : $r" . "<br>";
 echo "Garis Pelukis (s): $s" . "<br>";
 echo "----------------------------------------" . "<br>";
-echo "Luas Alas        : " . number_format($luasAlas, 2, ',', '.') . "<br>";
-echo "Luas Permukaan   : " . number_format($luasPermukaan, 2, ',', '.') . "<br>";
+echo "Luas Alas        : " . number_format($luasAlas, 2, ",", ".") . "<br>";
+echo "Luas Permukaan   : " . number_format($luasPermukaan, 2, ",", ".") . "<br>";
 ?>
