@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        /* Mengatur tampilan dasar */
+        body {
+            background-color: rgb(214, 117, 117);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px;
+        }
+
+        /* Menggunakan flexbox untuk membuat struktur baris */
+        .main-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 25px; /* Jarak antar baris atas dan bawah */
+            align-items: center;
+        }
+
+        .card-row {
+            display: flex;
+            justify-content: center;
+            gap: 25px; /* Jarak antar kartu (horizontal) */
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        /* Style kartu */
+        .card {
+            background-color: #e3d3cb;
+            width: 250px; /* Disesuaikan agar muat 3 kartu berjejer rapi */
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            color: #633b3b;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .card-title {
+            margin-top: 0;
+            color: #5d5d5d;
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+
+        hr {
+            border: 0;
+            border-top: 2px solid #fff;
+            margin-bottom: 15px;
+        }
+
+        /* Menghilangkan gaya link standar*/
+        .card a {
+            text-decoration: none;
+            color: #633b3b;
+            transition: color 0.3s;
+        }
+
+        /* Efek saat link disentuh kursor */
+        .card a:hover {
+            color: #b56d6d;
+            text-decoration: underline;
+        }
+
+        #div {
+            background-color: rgb(227, 211, 203);
+            width: 80px; /* Diperlebar sedikit agar teks 'back' tidak sesak */
+            height: 30px;
+            line-height: 30px; /* Menyelaraskan teks secara vertikal di tengah */
+            text-align: center;
+            border-radius: 5px;
+            margin: 50px auto 0 auto;
+        }
+
+        #a {
+            text-decoration: none;
+            color: rgb(131, 60, 60);
+            font-size: 18px;
+            font-weight: bold;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        
+        <div class="card-row">
+            <div class="card">
+                <h5 class="card-title">Modul 1</h5>
+                <hr>
+                <a href="Modul 1" class="card-link">Modul 1</a>
+            </div>
+            <div class="card">
+                <h5 class="card-title">Modul 2</h5>
+                <hr>
+                <a href="Modul 2" class="card-link">Modul 2</a>
+            </div>
+            <div class="card">
+                <h5 class="card-title">Modul 3</h5>
+                <hr>
+                <a href="Modul 3" class="card-link">Modul 3</a>
+            </div>
+        </div>
+
+        <div class="card-row">
+            <div class="card">
+                <h5 class="card-title">Modul 5</h5>
+                <hr>
+                <a href="Modul 5" class="card-link">Modul 5</a>
+            </div>
+            <div class="card">
+                <h5 class="card-title">Modul 6</h5>
+                <hr>
+                <a href="Modul 6" class="card-link">Modul 6</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="div">
+        <a id="a" href="index.php">back</a>
+    </div>
+
+</body>
+</html>
