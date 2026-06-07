@@ -12,6 +12,23 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             padding: 5px;
         }
+        .card-link {
+            background-color: rgb(227, 211, 203);
+            width: 120px; /* Diperlebar sedikit agar teks 'back' tidak sesak */
+            height: 30px;
+            line-height: 30px; /* Menyelaraskan teks secara vertikal di tengah */
+            text-align: center;
+            border-radius: 5px;
+            margin: 50px auto 0 auto;
+
+            text-decoration: none;
+            color: rgb(131, 60, 60);
+            font-size: 18px;
+            font-weight: bold;
+            display: block;
+        }
+
+      
     </style>
   <body>
         <nav class="navbar navbar-expand-lg bg-danger-subtle">
@@ -75,7 +92,7 @@
   <div class="card-body">
     <p class="card-text">Projek membuat profil pribadi adalah awal dari saya belajar web development, dengan membuat halaman web yang menampilkan informasi pribadi saya, 
     saya dapat memahami dasar-dasar HTML, CSS.</p>
-    <a href="profil.html" class="card-link">profil.html</a>
+    <a href="profil.html" class="card-link">profil</a>
   </div>
 </div>
     </div>
@@ -84,6 +101,7 @@
   <img src="perhitungan.png" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">Projek selanjutnya yang saya kerjakan adalah membuat perhitungan sederhana menggunakan HTML, CSS, dan JavaScript.</p>
+    <a href="modul 3/kerucut.php" class="card-link">perhitungan</a>
   </div>
 </div>
     </div>
@@ -92,6 +110,7 @@
   <img src="login.png" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">Projek terakhir yang saya kerjakan adalah membuat halaman login sederhana menggunakan HTML, CSS, dan JavaScript.</p>
+     <a href="modul 7/login.php" class="card-link">login</a>
   </div>
 </div>
     </div>
